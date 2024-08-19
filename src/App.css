@@ -5,19 +5,16 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
+#logo-img {
+  background: url('./src/images/logo-transparent.png') no-repeat;
+  width: 900px;
+  height: 682px;
+  /* margin: 10px 15px 10px 0; */
+  position: relative;
+  top: 0;
+  left: 10%;
+}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -25,6 +22,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.inline-element {
+  display: inline-block;
+  margin: 10px 15px 10px 0; /* Optional: Adds space between elements */
+  vertical-align: top; /* Aligns the elements vertically at the top */
+  width: 35%; /* Optional: Adjust width as needed */
+  text-align: left;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -48,15 +53,23 @@ body {
 }
 
 header {
-  background-color: #282c34;
-  color: white;
+  /* background-color: #e4e9ba; */
+  color: rgb(158, 111, 111);
   padding: 20px;
   text-align: center;
+  font-family: 'Poppins', cursive;
+  
 }
 
 section {
   padding: 20px;
   margin: 10px;
+  
+}
+
+section li {
+  list-style: none;
+  text-align: left;
 }
 
 footer {
@@ -64,6 +77,7 @@ footer {
   color: white;
   padding: 10px;
   text-align: center;
+  font-family: 'Poppins', cursive;
 }
 #myBtn {
   display: none;
@@ -84,4 +98,39 @@ footer {
 #myBtn:hover {
   background-color: rgb(78, 78, 78);
   color: rgb(218, 163, 218);
+}
+
+.back {
+  align-content: flex-start;
+}
+
+.continue {
+  align-content: flex-end;
+}
+
+
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+  font-family: 'Satisfy', cursive;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
 }
