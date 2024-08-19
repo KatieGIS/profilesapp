@@ -5,7 +5,8 @@ const Header = () => {
     return (
         <>
         <header>
-        <div id="logo-img"></div>
+        {/* <div id="logo-img"></div> */}
+        <img src="/src/images/logo-transparent.png" alt="" />
             
             <h2 > A GIS Full Stack Solutions Architect codes for GIS web applications enhancing your user experience.</h2>
           
