@@ -32,6 +32,17 @@
   text-align: left;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: space-between; /* Distributes space between items */
+}
+
+.flex-item {
+  flex: 0 0 45%; /* Optional: Each item takes up 45% of the container width */
+  /* Other styling as needed */
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;

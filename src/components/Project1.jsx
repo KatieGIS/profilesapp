@@ -1,6 +1,6 @@
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import '/node_modules/leaflet/dist/leaflet.css';
+import 'leaflet/dist/leaflet.css';
 
 const Project1 = () => {
   const center = [48.4284, -123.3656]; // Coordinates for Victoria's geographical center
