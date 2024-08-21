@@ -12,19 +12,18 @@ const About = () => {
             <h3>
             I mainly work for Geospatial analysis solutions implementation and 📍Advanced map virtualization for organizations.
             </h3>
-            <div className='flex-container'></div>
+            <div className='flex-container'>
             <div className='flex-item'>
                 <Map />
             </div>
             <div className="flex-item">
                 <li> 👋 Hello from Vancouver Island BC. </li>
-                <li> About 6 years ago, I became an islander again following 2 years of study in cowtown Calgary AB.</li>
-                <li> As soon as I finished my study, I started off my GIS career as a GIS Developer and had helped many agencies enhancing their web map applications. </li>
-                <li> Not only have I discovered the best solutions for my clients, I also keep on my learning advatures towards data science.</li>
-                <li> During post pandamic, I helped 2 book auditions, and they are now available online and in stores.</li>
-                <img src={book1} alt="geospatial_w_python"></img>
-                <img src={book2} alt="geospatial_w_sql"></img>
+                <li> About 6 years ago, I became an islander again following 2 years of study in cowtown Calgary AB. As soon as I finished my study, I started off my GIS career as a GIS Developer and had helped many agencies enhancing their web map applications. </li>
+                <li> Not only have I discovered the best solutions for my clients, I also keep on my learning advatures towards data science. During post pandamic, I helped 2 book auditions, and they are now available online and in stores.</li>
+                {/* <img src={book1} alt="geospatial_w_python"></img>
+                <img src={book2} alt="geospatial_w_sql"></img> */}
                 <li> Cloud and AI are 2 other things than my current role and I am exploring some great tools and features for the potentials.</li>
+            </div>
             </div>
             <h3>
                 My Skills

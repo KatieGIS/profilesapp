@@ -25,12 +25,18 @@
 
 .flex-container {
   display: flex;
-  justify-content: space-between; /* Distributes space between items */
+  justify-content: space-evenly; /* Distributes space between items */
+  padding: 0.5em;
 }
 
 .flex-item {
-  flex: 0 0 45%; /* Optional: Each item takes up 45% of the container width */
+  flex: 0 0 40%; /* Optional: Each item takes up 40% of the container width */
   /* Other styling as needed */
+  border-radius: 2em;
+  border: 1em;
+  border-color: #888;
+  box-shadow: #343334;
+  
 }
 
 
@@ -56,10 +62,11 @@ body {
 
 header {
   /* background-color: #e4e9ba; */
-  color: rgb(158, 111, 111);
+  color: rgb(132, 85, 117);
   padding: 20px;
   text-align: center;
   font-family: 'Poppins', cursive;
+
   
 }
 
@@ -75,16 +82,18 @@ header img {
 section {
   padding: 20px;
   margin: 10px;
-  
+  font-style: normal;
+  color: rgb(172, 116, 155);
 }
 
 section li {
   list-style: none;
   text-align: left;
+  
 }
 
 footer {
-  background-color: #282c34;
+  background-color: #b08aab;
   color: white;
   padding: 10px;
   text-align: center;
@@ -121,8 +130,9 @@ footer {
 
 
 .navbar {
-  background-color: #333;
+  background-color: rgb(213, 148, 148);
   padding: 10px;
+  justify-content: space-evenly;
 }
 
 .navbar ul {
@@ -130,18 +140,22 @@ footer {
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: space-evenly;
 }
 
 .navbar li {
   margin-right: 20px;
-  font-family: 'Satisfy', cursive;
+  /* font-family: 'Satisfy', cursive; */
+  font-family: Helvetica;
+  font-weight: bold;
+  
 }
 
 .navbar a {
   color: white;
-  text-decoration: none;
+  text-decoration:rgb(132, 85, 117);
 }
 
 .navbar a:hover {
-  text-decoration: underline;
+  text-decoration:solid;
 }
