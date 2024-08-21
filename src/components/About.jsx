@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import Map from './Project1';
+import Map from './Location';
 import book1 from '../images/geospatial_w_python.png'
 import book2 from '../images/geospatial_w_sql.png'
 

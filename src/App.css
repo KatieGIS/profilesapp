@@ -6,15 +6,6 @@
 }
 
 
-#logo-img {
-  background: url('./src/images/logo-transparent.png') no-repeat;
-  width: 900px;
-  height: 682px;
-  /* margin: 10px 15px 10px 0; */
-  position: relative;
-  top: 0;
-  left: 10%;
-}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
